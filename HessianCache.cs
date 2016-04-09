@@ -5,13 +5,13 @@ using System.Text;
 using System.Collections.Concurrent;
 using System.Threading.Tasks;
 
-using Gramma.Vectors;
-using Gramma.Vectors.ExtraExtensions;
-using Gramma.Kernels;
-using Gramma.Optimization;
-using Gramma.Caching;
+using Grammophone.Vectors;
+using Grammophone.Vectors.ExtraExtensions;
+using Grammophone.Kernels;
+using Grammophone.Optimization;
+using Grammophone.Caching;
 
-namespace Gramma.SVM
+namespace Grammophone.SVM
 {
 	/// <summary>
 	/// Cache that stores a limited amount of rows of the Hessian of the goal of

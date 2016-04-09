@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Gramma.Kernels;
+using Grammophone.Kernels;
 
-namespace Gramma.SVM.CoordinateDescent
+namespace Grammophone.SVM.CoordinateDescent
 {
 	/// <summary>
 	/// A binary classifier using a modified SMO-like algorithm.

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Collections.Concurrent;
 
-namespace Gramma.SVM
+namespace Grammophone.SVM
 {
 	public class StaticPartitioner<T> : Partitioner<T>
 	{

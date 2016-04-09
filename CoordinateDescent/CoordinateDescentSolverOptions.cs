@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Gramma.SVM.CoordinateDescent
+namespace Grammophone.SVM.CoordinateDescent
 {
 	/// <summary>
 	/// Options for the algorithm used by <see cref="CoordinateDescentBinaryClassifier{T}"/>.

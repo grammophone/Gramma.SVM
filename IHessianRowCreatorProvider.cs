@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Gramma.Kernels;
+using Grammophone.Kernels;
 
-namespace Gramma.SVM
+namespace Grammophone.SVM
 {
 	/// <summary>
 	/// Contract to provide an implementation of <see cref="HessianRowCreator{T}"/>

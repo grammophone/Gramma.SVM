@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Gramma.Vectors;
-using Gramma.Optimization;
-using Gramma.Kernels;
+using Grammophone.Vectors;
+using Grammophone.Optimization;
+using Grammophone.Kernels;
 
-namespace Gramma.SVM.CG
+namespace Grammophone.SVM.CG
 {
 	public class CgLineSearchBinaryClassifier<T> : 
 		CgBinaryClassifier<T, ConjugateGradient.LineSearchConstrainedMinimizeOptions>

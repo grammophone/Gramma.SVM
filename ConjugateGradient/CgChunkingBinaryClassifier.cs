@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Diagnostics;
 
-using Gramma.Linq;
-using Gramma.Vectors;
-using Gramma.Vectors.ExtraExtensions;
-using Gramma.Optimization;
-using Gramma.Kernels;
+using Grammophone.Linq;
+using Grammophone.Vectors;
+using Grammophone.Vectors.ExtraExtensions;
+using Grammophone.Optimization;
+using Grammophone.Kernels;
 
-namespace Gramma.SVM.CG
+namespace Grammophone.SVM.CG
 {
 	public abstract class CgChunkingBinaryClassifier<T, SO> : ChunkingBinaryClassifier<T>
 		where SO : ConjugateGradient.ConstrainedMinimizeOptions, new()

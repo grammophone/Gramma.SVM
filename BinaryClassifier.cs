@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Gramma.Kernels;
+using Grammophone.Kernels;
 
-namespace Gramma.SVM
+namespace Grammophone.SVM
 {
 	/// <summary>
 	/// Represents the class of a sample in a binary classification problem.

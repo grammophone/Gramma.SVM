@@ -1,5 +1,5 @@
-# Gramma.SVM
-This .NET library implements Support vector Machines. It works with kernels of any type using the [Gramma.Kernels](https://github.com/grammophone/Gramma.Kernels) library.
+# Grammophone.SVM
+This .NET library implements Support vector Machines. It works with kernels of any type using the [Grammophone.Kernels](https://github.com/grammophone/Grammophone.Kernels) library.
 
 Binary classifier implementations are derived from the abstract `BinaryClassifier<T>`, where `T` is the type of items being classified. The implementations need a `Kernel<T>` to be supplied upon creation, they are trained via the `Train` method and they discriminate via the `Discriminate` method which returns Double instead of Boolean. This permits the output to be refitted to other values, for example to [map it to probabilities using Platt's method (1999)](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.1639). The trained SVM can be saved and loaded using standard .NET serialization.
 
@@ -10,9 +10,9 @@ In the UML diagram below, we can see the main SVM implementations of the library
 There also exist other implementations not seen in this diagram, but these are experimental and not intended for use.
 
 This project relies on the following projects being in sibling directories:
-* [Gramma.Caching](https://github.com/grammophone/Gramma.Caching)
-* [Gramma.Indexing](https://github.com/grammophone/Gramma.Indexing)
-* [Gramma.Kernels](https://github.com/grammophone/Gramma.Kernels)
-* [Gramma.Linq](https://github.com/grammophone/Gramma.Linq)
-* [Gramma.Optimization](https://github.com/grammophone/Gramma.Optimization)
-* [Gramma.Vectors](https://github.com/grammophone/Gramma.Vectors)
+* [Grammophone.Caching](https://github.com/grammophone/Grammophone.Caching)
+* [Grammophone.Indexing](https://github.com/grammophone/Grammophone.Indexing)
+* [Grammophone.Kernels](https://github.com/grammophone/Grammophone.Kernels)
+* [Grammophone.Linq](https://github.com/grammophone/Grammophone.Linq)
+* [Grammophone.Optimization](https://github.com/grammophone/Grammophone.Optimization)
+* [Grammophone.Vectors](https://github.com/grammophone/Grammophone.Vectors)

@@ -3,15 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Gramma.Kernels;
-using Gramma.Linq;
-using Gramma.Optimization;
-using Gramma.Vectors;
-using Gramma.Vectors.ExtraExtensions;
+using Grammophone.Kernels;
+using Grammophone.Linq;
+using Grammophone.Optimization;
+using Grammophone.Vectors;
+using Grammophone.Vectors.ExtraExtensions;
 using System.Collections.Concurrent;
 using System.Threading.Tasks;
 
-namespace Gramma.SVM.CG
+namespace Grammophone.SVM.CG
 {
 	/// <summary>
 	/// Binary classifier trained using conjugate gradent method.

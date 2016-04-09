@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Gramma.Kernels;
+using Grammophone.Kernels;
 
-namespace Gramma.SVM
+namespace Grammophone.SVM
 {
 	/// <summary>
 	/// Computes a row of the Hessian in a serial manner.

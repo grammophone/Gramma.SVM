@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Diagnostics;
 
-using Gramma.Vectors;
-using Gramma.Kernels;
-using Gramma.Optimization;
+using Grammophone.Vectors;
+using Grammophone.Kernels;
+using Grammophone.Optimization;
 
-namespace Gramma.SVM.CoordinateDescent
+namespace Grammophone.SVM.CoordinateDescent
 {
 	/// <summary>
 	/// A binary classifier using a modified SMO-like algorithm running serially.

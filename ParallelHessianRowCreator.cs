@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-using Gramma.Kernels;
+using Grammophone.Kernels;
 using System.Collections.Concurrent;
 using System.Threading.Tasks;
 
-namespace Gramma.SVM
+namespace Grammophone.SVM
 {
 	/// <summary>
 	/// Computes a row of the Hessian using parallelism.
