@@ -5,7 +5,7 @@ Binary classifier implementations are derived from the abstract `BinaryClassifie
 
 In the UML diagram below, we can see the main SVM implementations of the library. These implementations follow the ['Coordinate Descent' method](http://dx.doi.org/10.1109/CIES.2013.6611732) for serial and parallel computations. The serial implementation is `SerialCoordinateDescentBinaryClassifier<T>`, the parallel one is `PartitioningCoordinateDescentBinaryClassifier<T>`. Both of them derive from `CoordinateDescentBinaryClassifier<T>` from which they inherit a `SolverOptions` property of type `CoordinateDescentSolverOptions`.
 
-![SVM hierarchy](http://s7.postimg.org/5m8a04z6z/SVM_hierarchy.png)
+![SVM hierarchy](https://raw.githubusercontent.com/grammophone/Grammophone.SVM/master/Images/SVM.png)
 
 There also exist other implementations not seen in this diagram, but these are experimental and not intended for use.
 
